@@ -115,7 +115,7 @@ namespace tutorial_clicker
         {
             try
             {
-                Autoclicker.Interval = 1000 / randomTB.Value;
+                Autoclicker.Interval = 10000000000000000000000 / randomTB.Value;
             }
             catch { }
             if (btnToggle.Text.Contains("disable"))
